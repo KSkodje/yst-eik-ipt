@@ -1,9 +1,36 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-#logo {
-    max-width: 100%;
-    max-height: 100vh;
+img {
+    max-height: 100%;
+}
+
+nav {
+    text-align: center;
+}
+
+nav > li {
+    list-style: none;
+    display: inline-block;
+}
+
+.container:nth-child(odd) {
+    background-color: aquamarine;
+}
+
+.container {
+    padding: 1rem;
+    max-width: 80%;
+    max-height: 90vh;
+}
+
+
+.col {
+    content: '';
+    width: 100px;
+    max-height: 250px;
+    text-align: center;
 }
