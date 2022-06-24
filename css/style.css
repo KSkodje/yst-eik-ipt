@@ -17,6 +17,10 @@ nav > li {
     display: inline-block;
 }
 
+nav > li > a {
+    text-decoration: none;
+}
+
 .container:nth-child(odd) {
     background-color: aquamarine;
 }
@@ -27,6 +31,15 @@ nav > li {
     max-height: 90vh;
 }
 
+.main-content {
+    display: flex;
+    gap: 1rem;
+}
+
+.main-content div {
+    border: 2px solid gray;
+    width: 50%;
+}
 
 .col {
     content: '';
