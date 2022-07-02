@@ -21,6 +21,11 @@ nav > li > a {
     text-decoration: none;
 }
 
+.req-indicator {
+    color: darkred;
+    font-weight: bold;
+}
+
 .container:nth-child(odd) {
     background-color: aquamarine;
 }
@@ -46,4 +51,29 @@ nav > li > a {
     width: 100px;
     max-height: 250px;
     text-align: center;
+}
+
+#kontakt-oss {
+    display: flex;
+    gap: 1em;
+}
+
+#kontakt-oss div {
+    /* border: 2px solid gray; */
+    width: 50%;
+}
+
+.map-view {
+    margin: 0;
+    padding: 0;
+}
+
+#kart {
+    min-height: 100%;
+    max-width: 100%;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
 }
