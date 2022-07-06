@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+
+:root {
+    --1-bg-color: #508068;
+    --2-bg-color: #445C4C;
+    --3-bg-color: #8AB6A9;
+    --4-bg-color: #D6E2E0;
+    --5-bg-color: #BFC9CA;
+
+}
+
 img {
     max-height: 100%;
 }
