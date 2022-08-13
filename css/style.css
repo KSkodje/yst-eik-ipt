@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 :root {
     --1-bg-color: #508068;
     --2-bg-color: #445C4C;
@@ -16,7 +15,6 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
-
 
 a {
     text-decoration: none;
@@ -64,13 +62,20 @@ nav > li > a {
     background-color: var(--3-bg-color);
 }
 
-.container {
-    padding: 1.5rem;
+.wrapper {
     max-width: 80%;
+    margin: 0 auto;
+
+    box-shadow: 12px 0 8px -4px rgba(74, 74, 74, 0.8), -12px 0 8px -4px rgba(74, 74, 74, 0.8);
+}
+
+.container {
+    padding: 3rem;
     background-color: var(--4-bg-color);
 }
 
 .container:last-child {
+    padding: 1.5rem;
     border-top: 2px solid var(--2-bg-color);
     background-color: var(--3-bg-color);
     color: white;
@@ -95,6 +100,10 @@ nav > li > a {
     display: block;
     margin: 0 auto;
     max-width: 100%;
+}
+
+.tjeneste {
+    margin-bottom: 2rem;
 }
 
 .col {
@@ -145,10 +154,10 @@ nav > li > a {
     display: none;
 }
 
-#ipt-link:hover .ipt-logo {
+#ipt-link:hover .ipt-logo, #ipt-link:focus .ipt-logo {
     display: none;
 }
 
-#ipt-link:hover #hover-logo{
+#ipt-link:hover #hover-logo, #ipt-link:focus #hover-logo {
     display: inline;
 }
