@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yst-Eik Gard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -17,11 +18,10 @@
             </div>
             <div class="row">
                 <nav>
-                    <li><a href="index.html">Velkommen</a></li>
-                    <li><a href="https://innpatunet.no/yst-eik-gard/">Inn på tunet</a></li>
-                    <li><a href="contact.html">Om Oss</a></li>
-                    <li><a href="#">Tjenestene</a></li>
-                    <li><a href="galleri.html">Galleri</a></li>
+                  <li><a href="index.html">Velkommen</a></li>
+                  <li><a href="contact.html" class="active">Om Oss</a></li>
+                  <li><a href="tjenestene.html">Tjenestene</a></li>
+                  <li><a href="galleri.html">Galleri</a></li>
                 </nav>
             </div>
         </div>
@@ -42,12 +42,21 @@
             </div>
         </div>
         <div class="container footer">
-            <div class="section">(C) 2022 Yst-Eik Gard<br /><span>Webside utviklet av Kathrine Færø Bae og Kenneth Skodje</span></div>
-            <img src="resources/ipt/ipt_logo_hvit.png" alt="inn på tunet logo" id="ipt-logo">
+            <div>
+              <a href="https://innpatunet.no/yst-eik-gard/" id="ipt-link">
+                <img src="resources/ipt/ipt_logo_hvit.png" alt="inn på tunet logo" class="ipt-logo">
+                <img src="resources/ipt/ipt_logo_hvit-og-groenn_cmyk.png" alt="inn på tunet logo" class="ipt-logo" id="hover-logo">
+              </a>
+            </div>
+            <div class="section">&copy; 2022 Yst-Eik Gard<br /><span>Webside utviklet av Kathrine Bae Færø og Kenneth Skodje</span></div>
         </div>
-    </div>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script src="./js/script.js"></script>
-</body>
-</html>
+      </div>
+      <!-- JavaScript Bundle with Popper -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"
+      ></script>
+      <script src="./js/script.js"></script>
+    </body>
+  </html>
