@@ -13,6 +13,25 @@
     --5-bg-color: #BFC9CA;
 }
 
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+a:hover, a:focus {
+    color: var(--2-bg-color);
+}
+
+a.active {
+    color: var(--2-bg-color);
+    border-bottom: 2px solid var(--2-bg-color);
+}
+
 img {
     max-height: 100%;
 }
@@ -28,6 +47,7 @@ h3 {
 nav > li {
     list-style: none;
     display: inline-block;
+    margin-left: 1em;
 }
 
 nav > li > a {
@@ -45,7 +65,7 @@ nav > li > a {
 }
 
 .container {
-    padding: 1rem;
+    padding: 1.5rem;
     max-width: 80%;
     background-color: var(--4-bg-color);
 }
@@ -113,8 +133,20 @@ nav > li > a {
     justify-content: space-between;
 }
 
-#ipt-logo {
+.ipt-logo {
     margin: 1em;
     max-height: 5rem;
     height: 100%;
+}
+
+#hover-logo {
+    display: none;
+}
+
+#ipt-link:hover .ipt-logo {
+    display: none;
+}
+
+#ipt-link:hover #hover-logo{
+    display: inline;
 }
