@@ -58,20 +58,24 @@ nav > li > a {
     font-weight: bold;
 }
 
-.container:nth-child(odd) {
-    background-color: var(--3-bg-color);
-}
-
 .wrapper {
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
 
     box-shadow: 12px 0 8px -4px rgba(74, 74, 74, 0.8), -12px 0 8px -4px rgba(74, 74, 74, 0.8);
 }
 
+.container:nth-child(odd) {
+    background-color: var(--3-bg-color);
+}
+
 .container {
     padding: 3rem;
     background-color: var(--4-bg-color);
+}
+
+.container:first-child {
+    border-bottom: 2px solid var(--2-bg-color);
 }
 
 .container:last-child {
